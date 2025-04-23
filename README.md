@@ -10,19 +10,19 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```bash
-composer require "apimatic/calculator-package-v-1-php-sdk:1.0.1"
+composer require "muhamza/calculator-package-v-1-php-sdk:1.0.1"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```json
 "require": {
-    "apimatic/calculator-package-v-1-php-sdk": "1.0.1"
+    "muhamza/calculator-package-v-1-php-sdk": "1.0.1"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/apimatic/calculator-package-v-1-php-sdk#1.0.1
+https://packagist.org/packages/muhamza/calculator-package-v-1-php-sdk#1.0.1
 
 ## Initialize the API Client
 

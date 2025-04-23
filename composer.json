@@ -1,5 +1,5 @@
 {
-    "name": "apimatic/calculator-package-v-1-php-sdk",
+    "name": "muhamza/calculator-package-v-1-php-sdk",
     "description": "Use the calculator api to perform arithmetic between two numbers ",
     "type": "library",
     "keywords": [],
