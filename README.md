@@ -10,23 +10,23 @@ Simple calculator API hosted on APIMATIC
 Run the following command to install the package and automatically add the dependency to your composer.json file:
 
 ```bash
-composer require "muhamza/calculator-package-v-1-php-sdk:1.0.3"
+composer require "muhamza/calculator-package-v-1-php-sdk:1.0.5"
 ```
 
 Or add it to the composer.json file manually as given below:
 
 ```json
 "require": {
-    "muhamza/calculator-package-v-1-php-sdk": "1.0.3"
+    "muhamza/calculator-package-v-1-php-sdk": "1.0.5"
 }
 ```
 
 You can also view the package at:
-https://packagist.org/packages/muhamza/calculator-package-v-1-php-sdk#1.0.3
+https://packagist.org/packages/muhamza/calculator-package-v-1-php-sdk#1.0.5
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.3/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.5/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -42,7 +42,7 @@ The following parameters are configurable for the API Client:
 | retryOnTimeout | `bool` | Whether to retry on request timeout.<br>*Default*: `true` |
 | httpStatusCodesToRetry | `array` | Http status codes to retry against.<br>*Default*: `408, 413, 429, 500, 502, 503, 504, 521, 522, 524` |
 | httpMethodsToRetry | `array` | Http methods to retry against.<br>*Default*: `'GET', 'PUT'` |
-| proxyConfiguration | [`ProxyConfigurationBuilder`](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.3/doc/proxy-configuration-builder.md) | Represents the proxy configurations for API calls |
+| proxyConfiguration | [`ProxyConfigurationBuilder`](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.5/doc/proxy-configuration-builder.md) | Represents the proxy configurations for API calls |
 
 The API client can be initialized as follows:
 
@@ -54,20 +54,20 @@ $client = APIMATICCalculatorClientBuilder::init()
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.3/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.5/doc/controllers/simple-calculator.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [ProxyConfigurationBuilder](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.3/doc/proxy-configuration-builder.md)
+* [ProxyConfigurationBuilder](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.5/doc/proxy-configuration-builder.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.3/doc/http-request.md)
-* [HttpResponse](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.3/doc/http-response.md)
+* [HttpRequest](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.5/doc/http-request.md)
+* [HttpResponse](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.5/doc/http-response.md)
 
 ### Utilities
 
-* [ApiException](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.3/doc/api-exception.md)
+* [ApiException](https://www.github.com/MuHamza30/calculator-package-v-1-php-php-sdk/tree/1.0.5/doc/api-exception.md)
 
